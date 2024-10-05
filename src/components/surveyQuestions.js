@@ -70,10 +70,9 @@ export const questions = [
 	},
 	{
 		id: "Q4a",
-		text: "Si moins d'1 fois par mois - notez le nombre de fois par an.",
+		text: "Si moins d'une fois par mois, notez le nombre de fois par an.",
 		freeText: true,
 		next: "Q5",
-		condition: (answers) => answers.Q3 === 1 && answers.Q4 === 4,
 	},
 	{
 		id: "Q5",
